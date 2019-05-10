@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Евгений Поддубский](https://up.htmlacademy.ru/htmlcss/25/user/816327).
-* Наставник: Юрий Зайцев (https://htmlacademy.ru/profile/yuryzaytsev).
+* Наставник: [Юрий Зайцев](https://htmlacademy.ru/profile/yuryzaytsev).
 
 ---
 
