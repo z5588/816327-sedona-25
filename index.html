@@ -7,11 +7,12 @@
 </head>
 
 <body>
+
   <header class="header">
-    <a class="header-logo">
-      <img src="img/index-logo.svg" width="368" height="153" alt="Логотип">
-    </a>
     <nav class="header-navigation">
+      <a class="header-logo">
+        <img src="img/index-logo.svg" width="368" height="153" alt="Логотип">
+      </a>
       <ul class="site-navigation">
         <li><a href="info.htm">Информация</a></li>
         <li><a href="fotoAndVideo.htm">Фото и видео</a></li>
@@ -21,29 +22,33 @@
     </nav>
   </header>
 
-  <main class="container">
-    <h1 class="">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
-
-    <!--здесь баннер-->
-
-    <section class="features">
-      <h2 class="">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</h2>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
+  <main class="main">
+    <section class="main-banner">
+      <h1 class="visually-hidden">Седона - туристический городок в штате Аризона, США</h1>
+      <img src="img/main-banner.png" width="100%" alt="Баннер">
     </section>
-
+    <section class="main-features">
+      <b>Седона — небольшой городок в Аризоне, заслуживающий большего!</b>
+      <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+      <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ol>
+    </section>
     <section class="booking">
-      <h2>Заинтерессовались?</h2>
+      <h2 class="visually-hidden">Поиск отелей и гостиниц в Седоне</h2>
+      <b>Заинтерессовались?</b>
       <p class="appointment-info">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
         седоне</p>
-      <p class="">поиск гостиницы в Седоне</p>
+      <a href="#">
+        <div class="booking-interactive">
+          <p>Поиск гостиницы в Седоне</p>
+        </div>
+      </a>
     </section>
-
     <section class="geo">
       <h2>Седона на карте</h2>
       <!-- а здесь карта, которую пока указано не размечать:-->
@@ -53,20 +58,17 @@
 
   <footer class="footer">
     <p class="footer-hashTag"><b>#visitsedona</b></p>
-
-    <div class="footer-social">
-      <ul>
-        <li><a class="social-button" href="#">Вконтакте</a></li>
-        <li><a class="social-button" href="#">Фейсбук</a></li>
-        <li><a class="social-button" href="#">Инстаграм</a></li>
-      </ul>
-    </div>
-
+    <ul>
+      <li><a class="social-button" href="#">Вконтакте</a></li>
+      <li><a class="social-button" href="#">Фейсбук</a></li>
+      <li><a class="social-button" href="#">Инстаграм</a></li>
+    </ul>
     <p class="footer-copyright">
       <a href="https://htmlacademy.ru">website by
         <img src="img/copyright-logo.svg" width="368" height="153" alt="htmlacademy.ru"></a>
     </p>
   </footer>
+
 </body>
 
 </html>
